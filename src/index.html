@@ -40,7 +40,7 @@
 			<div class="wrapper">
 				<div class="side-by-side">
 					<div class="side-by-side-content">
-						<h3>Fewer moving parts</h3>
+						<!-- <h3>Fewer moving parts</h3>
 						<p>
 							Caddy simplifies your infrastructure. It takes care of TLS certificate renewals, OCSP stapling, static file serving, reverse proxying, Kubernetes ingress, and more.
 						</p>
@@ -50,7 +50,7 @@
 						<p>
 							Caddy runs great in containers because it has no dependencies&mdash;not even libc. Run Caddy practically anywhere.
 						</p>
-						<p><a href="/docs/" class="gray button">Documentation</a></p>
+						<p><a href="/docs/" class="gray button">Documentation</a></p> -->
 						<h3>更少的活动部件</h3>
 						<p>
 						Caddy 简化了您的基础架构。 它负责 TLS 证书更新、OCSP 装订、静态文件服务、反向代理、Kubernetes 入口等。
@@ -72,7 +72,7 @@
 			<div class="wrapper">
 				<div class="side-by-side">
 					<div class="side-by-side-content">
-						<h3>Best-in-class security</h3>
+						<!-- <h3>Best-in-class security</h3>
 						<p>
 							<b>Caddy is the only web server to use HTTPS automatically and by default.</b>
 						</p>
@@ -82,10 +82,21 @@
 						<p>
 							Written in Go, Caddy offers greater memory safety than servers written in C. A hardened TLS stack powered by the Go standard library serves a significant portion of all Internet traffic.
 						</p>
+						<p><a href="/download" class="blue button">Download</a></p> -->
+						<h3>一流的安全性</h3>
+						<p>
+						<b>Caddy 是唯一一个默认自动使用 HTTPS 的网络服务器。</b>
+						</p>
+						<p>
+						Caddy 会自动为您的站点获取和更新 TLS 证书。 它甚至是 OCSP 响应的主要内容。 其新颖的证书管理功能是同类产品中最成熟、最可靠的。
+						</p>
+						<p>
+						Caddy 用 Go 编写，比用 C 编写的服务器提供更高的内存安全性。由 Go 标准库提供支持的强化 TLS 堆栈服务于所有 Internet 流量的很大一部分。
+						</p>
 						<!-- <p>
-							A hardened TLS stack powered by the Go standard library serves a significant portion of all Internet traffic.
+						由 Go 标准库提供支持的强化 TLS 堆栈服务于所有 Internet 流量的很大一部分。
 						</p> -->
-						<p><a href="/download" class="blue button">Download</a></p>
+						<p><a href="/download" class="blue button">下载</a></p>
 					</div>
 					<img src="/resources/images/caddy-circle-lock.svg" alt="Caddy is the only server to use HTTPS automatically and by default">
 				</div>
@@ -96,14 +107,22 @@
 			<div class="wrapper">
 				<div class="side-by-side">
 					<div class="side-by-side-content">
-						<h3>Backed by Ardan</h3>
+						<!-- <h3>Backed by Ardan</h3>
 						<p>
 							<a href="https://www.ardanlabs.com">Ardan Labs</a> is the trusted partner of the Caddy Web Server open source project, providing enterprise-grade support to our clients.
 						</p>
 						<p>
 							Together, we consult and train, as well as develop, install, and maintain Caddy and its plugins to ensure your infrastructure runs smoothly and efficiently. Contact us to get started!
 						</p>
-						<p><a href="https://www.ardanlabs.com/my/contact-us?dd=caddy" class="red button">Let's talk</a></p>
+						<p><a href="https://www.ardanlabs.com/my/contact-us?dd=caddy" class="red button">Let's talk</a></p> -->
+						<h3>由Ardan支持</h3>
+						<p>
+						<a href="https://www.ardanlabs.com">Ardan Labs</a> 是 Caddy Web Server 开源项目值得信赖的合作伙伴，为我们的客户提供企业级支持。
+						</p>
+						<p>
+						我们一起咨询和培训，以及开发、安装和维护 Caddy 及其插件，以确保您的基础设施平稳高效地运行。 联系我们开始吧！
+						</p>
+						<p><a href="https://www.ardanlabs.com/my/contact-us?dd=caddy" class="red button">我们谈谈</a></p>
 					</div>
 					<img src="/resources/images/ardan-labs.svg" alt="Ardan Labs">
 				</div>
@@ -114,7 +133,7 @@
 			<div class="wrapper">
 				<div class="side-by-side">
 					<div class="side-by-side-content">
-						<h3>File server and proxy</h3>
+						<!-- <h3>File server and proxy</h3>
 						<p>
 							Caddy is both a flexible, efficient static file server and a powerful, scalable reverse proxy.
 						</p>
@@ -124,7 +143,18 @@
 						<p>
 							Or use it as a dynamic reverse proxy to any number of backends, complete with active and passive health checks, load balancing, circuit breaking, caching, and more.
 						</p>
-						<p><a href="/download" class="blue button">Download</a></p>
+						<p><a href="/download" class="blue button">Download</a></p> -->
+						<h3>文件服务器和代理</h3>
+						<p>
+						Caddy 既是一个灵活、高效的静态文件服务器，也是一个强大、可扩展的反向代理。
+						</p>
+						<p>
+						使用它通过压缩、模板评估、Markdown 渲染等为您的静态站点提供服务。
+						</p>
+						<p>
+						或者将其用作任意数量后端的动态反向代理，完成主动和被动健康检查、负载平衡、断路、缓存等。
+						</p>
+						<p><a href="/download" class="blue button">下载</a></p>
 					</div>
 					<img src="/resources/images/proxy-file-server.svg" alt="Caddy is the only server to use HTTPS automatically and by default">
 				</div>
@@ -132,7 +162,7 @@
 		</section>
 
 		<section class="alternate">
-			<div class="wrapper">
+			<!-- <div class="wrapper">
 				<h1 id="cli">1-Liners</h1>
 				<h2>
 					These commands are <b>production-ready</b>. When given a domain name, Caddy will use <b>HTTPS by default</b>, which provisions and renews certificates for you.*
@@ -165,12 +195,46 @@
 					<a href="/download" class="big blue button">Download</a>
 					<a href="/docs/command-line" class="big gray button">CLI Docs</a>
 				</div>
-			</div>
+			</div> -->
+			<div class="wrapper">
+				<h1 id="cli">1-Liners</h1>
+				<h2>
+				这些命令<b>生产就绪</b>。给定一个域名后，Caddy 将使用 <b>默认 HTTPS</b>，为您提供和更新证书。*
+				</h2>
+				<div class="footnote">* 需要域的公共 A/AAAA DNS 记录指向您的机器。</div>
+				</div>
+				
+				<div class="wrapper">
+				<div class="code-caption">快速的本地文件服务器</div>
+				</div>
+				<code class="block"><div class="wrapper">$ caddy file-server</div></code>
+				
+				<div class="wrapper">
+				<div class="code-caption">HTTPS 上的公共文件服务器</div>
+				</div>
+				<code class="block"><div class="wrapper">$ caddy file-server --domain example.com</div></code>
+				
+				<div class="wrapper">
+				<div class="code-caption">HTTPS 反向代理</div>
+				</div>
+				<code class="block"><div class="wrapper">$ caddy reverse-proxy --from example.com --to localhost:9000</div></code>
+				
+				<div class="wrapper">
+				<div class="code-caption">在工作目录中使用 Caddyfile 运行服务器（如果存在）</div>
+				</div>
+				<code class="block"><div class="wrapper">$ caddy run</div></code>
+				
+				<div class="wrapper">
+				<div class="actions text-center">
+				<a href="/download" class="big blue button">下载</a>
+				<a href="/docs/command-line" class="big gray button">CLI 文档</a>
+				</div>
+				</div>
 		</section>
 
 
 		<section class="alternate">
-			<div class="wrapper">
+			<!-- <div class="wrapper">
 				<h1 id="caddyfile">The Caddyfile</h1>
 				<h2>
 					A config file that's <b>human-readable</b> and <b>easy to write</b> by hand. Perfect for most common and manual configurations.
@@ -182,52 +246,105 @@
 			</div>
 			<code class="block caddyfile"><div class="wrapper"><span class="cf-key">localhost</span>
 
-<span class="cf-dir">templates</span>
-<span class="cf-dir">file_server</span></div></code>
+			<span class="cf-dir">templates</span>
+			<span class="cf-dir">file_server</span></div></code>
 
 			<div class="wrapper">
 				<div class="code-caption">HTTPS reverse proxy with custom load balancing and active health checks</div>
 			</div>
 			<code class="block caddyfile"><div class="wrapper"><span class="cf-key">example.com</span> <span class="cf-comment"># Your site's domain name</span>
 
-<span class="cf-comment"># Load balance between three backends with custom health checks</span>
-<span class="cf-dir">reverse_proxy</span> <span class="cf-arg">10.0.0.1:9000 10.0.0.2:9000 10.0.0.3:9000</span> {
-	<span class="cf-subdir">lb_policy</span>       random_choose 2
-	<span class="cf-subdir">health_path</span>     /ok
-	<span class="cf-subdir">health_interval</span> 10s
-}</div></code>
+				<span class="cf-comment"># Load balance between three backends with custom health checks</span>
+				<span class="cf-dir">reverse_proxy</span> <span class="cf-arg">10.0.0.1:9000 10.0.0.2:9000 10.0.0.3:9000</span> {
+					<span class="cf-subdir">lb_policy</span>       random_choose 2
+					<span class="cf-subdir">health_path</span>     /ok
+					<span class="cf-subdir">health_interval</span> 10s
+				}</div></code>
 
 			<div class="wrapper">
 				<div class="code-caption">HTTPS site with clean URLs, reverse proxying, compression, and templates</div>
 			</div>
 			<code class="block caddyfile"><div class="wrapper"><span class="cf-key">example.com</span>
 
-<span class="cf-comment"># Templates give static sites some dynamic features</span>
-<span class="cf-dir">templates</span>
-
-<span class="cf-comment"># Compress responses according to Accept-Encoding headers</span>
-<span class="cf-dir">encode</span> <span class="cf-arg">gzip zstd</span>
-
-<span class="cf-comment"># Make HTML file extension optional</span>
-<span class="cf-dir">try_files</span> <span class="cf-arg">{path}.html {path}</span>
-
-<span class="cf-comment"># Send API requests to backend</span>
-<span class="cf-dir">reverse_proxy</span> <span class="cf-arg">/api/* localhost:9005</span>
-
-<span class="cf-comment"># Serve everything else from the file system</span>
-<span class="cf-dir">file_server</span></div></code>
+			<span class="cf-comment"># Templates give static sites some dynamic features</span>
+			<span class="cf-dir">templates</span>
+			
+			<span class="cf-comment"># Compress responses according to Accept-Encoding headers</span>
+			<span class="cf-dir">encode</span> <span class="cf-arg">gzip zstd</span>
+			
+			<span class="cf-comment"># Make HTML file extension optional</span>
+			<span class="cf-dir">try_files</span> <span class="cf-arg">{path}.html {path}</span>
+			
+			<span class="cf-comment"># Send API requests to backend</span>
+			<span class="cf-dir">reverse_proxy</span> <span class="cf-arg">/api/* localhost:9005</span>
+			
+			<span class="cf-comment"># Serve everything else from the file system</span>
+			<span class="cf-dir">file_server</span></div></code>
 
 			<div class="wrapper">
 				<div class="actions text-center">
 					<a href="/download" class="big blue button">Download</a>
 					<a href="/docs/caddyfile" class="big gray button">Caddyfile Docs</a>
 				</div>
-			</div>
+			</div> -->
+			<div class="wrapper">
+				<h1 id="caddyfile">Caddyfile</h1>
+				<h2>
+				一个<b>人类可读</b>且<b>易于编写</b>的配置文件。非常适合大多数常见和手动配置。
+				</h2>
+				</div>
+				
+				<div class="wrapper">
+				<div class="code-caption">带模板评估的本地文件服务器</div>
+				</div>
+				<code class="block caddyfile"><div class="wrapper"><span class="cf-key">localhost</span>
+				
+				<span class="cf-dir">模板</span>
+				<span class="cf-dir">file_server</span></div></code>
+				
+				<div class="wrapper">
+				<div class="code-caption">具有自定义负载平衡和主动健康检查的 HTTPS 反向代理</div>
+				</div>
+				<code class="block caddyfile"><div class="wrapper"><span class="cf-key">example.com</span> <span class="cf-comment">#您网站的域名< /跨度>
+				
+				<span class="cf-comment"># 三个后端之间的负载平衡和自定义健康检查</span>
+				<span class="cf-dir">reverse_proxy</span> <span class="cf-arg">10.0.0.1:9000 10.0.0.2:9000 10.0.0.3:9000</span> {
+				<span class="cf-subdir">lb_policy</span> random_choose 2
+				<span class="cf-subdir">health_path</span> /ok
+				<span class="cf-subdir">health_interval</span> 10s
+				}</div></code>
+				
+				<div class="wrapper">
+				<div class="code-caption">具有干净 URL、反向代理、压缩和模板的 HTTPS 站点</div>
+				</div>
+				<code class="block caddyfile"><div class="wrapper"><span class="cf-key">example.com</span>
+				
+				<span class="cf-comment"># 模板为静态网站提供了一些动态功能</span>
+				<span class="cf-dir">模板</span>
+				
+				<span class="cf-comment"># 根据 Accept-Encoding 标头压缩响应</span>
+				<span class="cf-dir">编码</span> <span class="cf-arg">gzip zstd</span>
+				
+				<span class="cf-comment"># 将 HTML 文件扩展名设为可选</span>
+				<span class="cf-dir">try_files</span> <span class="cf-arg">{path}.html {path}</span>
+				
+				<span class="cf-comment">#向后端发送API请求</span>
+				<span class="cf-dir">reverse_proxy</span> <span class="cf-arg">/api/* localhost:9005</span>
+				
+				<span class="cf-comment"># 服务于文件系统中的所有其他内容</span>
+				<span class="cf-dir">file_server</span></div></code>
+				
+				<div class="wrapper">
+				<div class="actions text-center">
+				<a href="/download" class="big blue button">下载</a>
+				<a href="/docs/caddyfile" class="big gray button">Caddyfile 文档</a>
+				</div>
+				</div>
 		</section>
 
 
 		<section class="alternate">
-			<div class="wrapper">
+			<!-- <div class="wrapper">
 				<h1 id="api">Config API</h1>
 				<h2>
 					Caddy is dynamically configurable with a <b>RESTful JSON API</b>. Config updates are <b>graceful</b>, even on Windows.
@@ -241,24 +358,24 @@
 			</div>
 			<code class="block rest"><div class="wrapper"><b>POST /config/</b>
 
-{
-  "apps": {
-    "http": {
-      "servers": {
-        "example": {
-          "listen": ["127.0.0.1:2080"],
-          "routes": [{
-            "@id": "demo",
-            "handle": [{
-              "handler": "file_server",
-              "browse": {}
-            }]
-          }]
-        }
-      }
-    }
-  }
-}</div></code>
+				{
+				  "apps": {
+				    "http": {
+				      "servers": {
+				        "example": {
+				          "listen": ["127.0.0.1:2080"],
+				          "routes": [{
+				            "@id": "demo",
+				            "handle": [{
+				              "handler": "file_server",
+				              "browse": {}
+				            }]
+				          }]
+				        }
+				      }
+				    }
+				  }
+				}</div></code>
 
 			<div class="wrapper">
 				<div class="code-caption">Export current configuration</div>
@@ -270,7 +387,7 @@
 			</div>
 			<code class="block rest"><div class="wrapper"><b>PUT /id/demo/handle/0</b>
 
-{"handler": "templates"}</div></code>
+				{"handler": "templates"}</div></code>
 
 			<div class="wrapper">
 				<div class="actions text-center">
@@ -282,7 +399,64 @@
 					<a href="/docs/api" class="big gray button">API Docs</a>
 					<a href="/docs/getting-started" class="big gray button">Tutorial</a>
 				</div>
-			</div>
+			</div> -->
+			<div class="wrapper">
+				<h1 id="api">配置 API</h1>
+				<h2>
+				Caddy 可使用 <b>RESTful JSON API</b> 动态配置。配置更新<b>优雅</b>，即使在 Windows 上也是如此。
+				<br><br>
+				使用 JSON 可让您<b>绝对控制</b>计算平台的边缘，非常适合<b>动态</b>和<b>自动化</b>部署。
+				</h2>
+				</div>
+				
+				<div class="wrapper">
+				<div class="code-caption">设置新配置</div>
+				</div>
+				<code class="block rest"><div class="wrapper"><b>POST /config/</b>
+				{
+				  "apps": {
+					"http": {
+					  "servers": {
+						"example": {
+						  "listen": ["127.0.0.1:2080"],
+						  "routes": [{
+							"@id": "demo",
+							"handle": [{
+							  "handler": "file_server",
+							  "browse": {}
+							}]
+						  }]
+						}
+					  }
+					}
+				  }
+				}
+				</div></code>
+				
+				<div class="wrapper">
+				<div class="code-caption">导出当前配置</div>
+				</div>
+				<code class="block rest"><div class="wrapper"><b>GET /config/</b></div></code>
+				
+				<div class="wrapper">
+				<div class="code-caption">仅更改配置的特定部分</div>
+				</div>
+				<code class="block rest"><div class="wrapper"><b>PUT /id/demo/handle/0</b>
+				
+				{"handler": "templates"}
+				</div></code>
+				
+				<div class="wrapper">
+				<div class="actions text-center">
+				<h2>
+				通过 API 所做的所有更改都会持久保存到磁盘，以便在重新启动后可以继续使用。
+				</h2>
+				
+				<a href="/download" class="big blue button">下载</a>
+				<a href="/docs/api" class="big gray button">API 文档</a>
+				<a href="/docs/getting-started" class="big gray button">教程</a>
+				</div>
+				</div>
 		</section>
 
 
@@ -299,7 +473,7 @@
 
 		<div class="features-area" id="features">
 
-			<section class="features-start">
+			<!-- <section class="features-start">
 				<div class="wrapper main-features">
 					<div class="main-feature">
 						<img src="/resources/images/padlock.svg">
@@ -342,12 +516,56 @@
 					<div class="feature-point">&#10004;&nbsp;Automagic TLS</div>
 				</div>
 		
-				<img src="/resources/images/features.svg" alt="Features" id="features-title">
+				<img src="/resources/images/features.svg" alt="Features" id="features-title"> -->
+				<section class="features-start">
+					<div class="wrapper main-features">
+					<div class="main-feature">
+					<img src="/resources/images/padlock.svg">
+					<div class="title">默认安全</div>
+					<p>
+					Caddy 是唯一默认使用 HTTPS 的 Web 服务器。具有现代协议的强化 TLS 堆栈可保护隐私并暴露 MITM 攻击。
+					</p>
+					</div>
+					<div class="main-feature">
+					<img src="/resources/images/plug.svg">
+					<div class="title">配置 API</div>
+					<p>
+					作为其主要配置模式，Caddy 的 REST API 可以轻松实现自动化并与您的应用程序集成。
+					</p>
+					</div>
+					<div class="main-feature">
+					<img src="/resources/images/box.svg">
+					<div class="title">无依赖</div>
+					<p>
+					因为 Caddy 是用 Go 编写的，所以它的二进制文件是完全独立的，可以在每个平台上运行，包括没有 libc 的容器。
+					</p>
+					</div>
+					<div class="main-feature">
+					<img src="/resources/images/stack.svg">
+					<div class="title">模块化堆栈</div>
+					<p>
+					收回对计算边缘的控制权。 Caddy 可以使用插件扩展您需要的一切。
+					</p>
+					</div>
+					</div>
+					
+					<div class="wrapper feature-points">
+					<div class="feature-point">&#10004;&nbsp;静态网站</div>
+					<div class="feature-point">&#10004;&nbsp;动态网站</div>
+					<div class="feature-point">&#10004;&nbsp;反向代理</div>
+					</div>
+					<div class="wrapper feature-points">
+					<div class="feature-point">&#10004;&nbsp;动态配置</div>
+					<div class="feature-point">&#10004;&nbsp;可扩展核心</div>
+					<div class="feature-point">&#10004;&nbsp;Automagic TLS</div>
+					</div>
+					
+					<img src="/resources/images/features.svg" alt="Features" id="features-title">
 			</section>
 
 
 			<section class="wrapper">
-				<h3>General</h3>
+				<!-- <h3>General</h3>
 				<p class="section-heading">
 					Caddy 2 was boldly engineered to simplify your infrastructure and give you control over the edge of your compute platform.
 				</p>
@@ -391,10 +609,54 @@
 							Caddy runs on Windows, macOS, Linux, BSD, Android, Solaris, 32-bit, amd64, ARM, aarch64, mips64... almost anything to which Go compiles.
 						</p>
 					</div>
-				</div>
+				</div> -->
+<h3>一般</h3>
+<p class="section-heading">
+Caddy 2 经过大胆设计，旨在简化您的基础架构并让您能够控制计算平台的边缘。
+</p>
 
 
-				<h4>Configuration</h4>
+<h4>架构</h4>
+<div class="feature">
+<div class="feature">
+<h5>可扩展</h5>
+<p>
+Caddy 可以将任何 Go 应用程序作为插件嵌入，并且对插件的插件有一流的支持。
+</p>
+</div>
+<div class="feature">
+<h5>最小全局状态</h5>
+<p>
+全局状态在服务器中很常见，但往往容易出错和成为瓶颈，因此 Caddy 2 使用了一种限制全局状态的新颖设计。
+</p>
+</div>
+<div class="feature">
+<h5>轻量级</h5>
+<p>
+对于其所有功能，Caddy 以相对较低的内存占用和高吞吐量轻松高效地运行。
+</p>
+</div>
+<div class="feature">
+<h5>多核</h5>
+<p>
+当情况变得艰难时，Caddy 会使用更多 CPU。 Go 的调度器理解 Go 代码，goroutines 比系统线程更轻量级。
+</p>
+</div>
+<div class="feature">
+<h5>静态二进制</h5>
+<p>
+Caddy 是一个没有依赖的单一可执行文件，甚至没有 libc。从字面上看只需要一些金属和内核。将 Caddy 放在您的 PATH 中并运行它。完毕。
+</p>
+</div>
+<div class="feature">
+<h5>跨平台</h5>
+<p>
+Caddy 可以运行在 Windows、macOS、Linux、BSD、Android、Solaris、32 位、amd64、ARM、aarch64、mips64 ......几乎任何 Go 编译的对象。
+</p>
+</div>
+</div>
+
+				<!-- <h4>Configuration</h4>
 				<div class="features">
 					<div class="feature">
 						<h5>JSON Structure</h5>
@@ -468,14 +730,88 @@
 							You can use Caddy's CLI to preview and validate configurations before applying them.
 						</p>
 					</div>
-				</div>
+				</div> -->
+
+<h4>配置</h4>
+<div class="feature">
+<div class="feature">
+<h5>JSON 结构</h5>
+<p>
+Caddy 的原生配置格式是 JSON，因此它很熟悉，并且与现有系统和工具具有高度的互操作性。
+</p>
+</div>
+<div class="feature">
+<h5>REST API</h5>
+<p>
+Caddy 的配置作为单个 JSON 文档通过 REST 端点接收，使其具有高度可编程性。
+</p>
+</div>
+<div class="feature">
+<h5>配置文件可选</h5>
+<p>
+您可以将配置文件与 Caddy 的 CLI 一起使用，它会在幕后为您将它们转换为 API 请求。
+</p>
+</div>
+<div class="feature">
+<h5>配置适配器</h5>
+<p>
+带上你自己的配置！配置适配器将各种配置格式（Caddyfile、TOML、NGINX 等）转换为 Caddy 的原生 JSON。
+</p>
+</div>
+<div class="feature">
+<h5>球童档案</h5>
+<p>
+一种简单、直观的方式来配置您的站点。这不是脚本，也不难记忆。从手指上滚下来。你会很喜欢的。
+</p>
+</div>
+<div class="feature">
+<h5>统一配置</h5>
+<p>
+所有配置都包含在单个 JSON 文档中，因此影响配置的隐藏因素较少。
+</p>
+</div>
+<div class="feature">
+<h5>部分更新</h5>
+<p>
+当您只需要进行小的更改时，Caddy 的 API 可让您仅更新其配置的相关部分。
+</p>
+</div>
+<div class="feature">
+<h5>细粒度控制</h5>
+<p>
+Caddy 的原生 JSON 公开了正在运行的服务器在内存中分配的实际字段，以便为您提供更多控制。
+</p>
+</div>
+<div class="feature">
+<h5>导出</h5>
+<p>
+您可以使用 GET 请求将 Caddy 当前配置的实时副本导出到其 API。
+</p>
+</div>
+<div class="feature">
+<h5>高效的重新加载</h5>
+<p>
+配置更新针对效率进行了微调，因此您可以每秒重新加载配置数十次。
+</p>
+</div>
+<div class="feature">
+<h5>优雅的重新加载</h5>
+<p>
+即使在 Windows 上，配置更改也无需停机或关闭套接字即可生效。
+</p>
+</div>
+<div class="feature">
+<h5>配置验证</h5>
+<p>
+在应用配置之前，您可以使用 Caddy 的 CLI 来预览和验证配置。
+</p>
+</div>
+</div>
 
 
 
 
-
-
-				<h4>Basic Features</h4>
+				<!-- <h4>Basic Features</h4>
 				<div class="features">
 					<div class="feature">
 						<h5>The Caddyfile</h5>
@@ -538,9 +874,72 @@
 						</p>
 					</div>
 				</div>
-			</section>
+			</section> -->
 			
-
+<h4>基本功能</h4>
+<div class="feature">
+<div class="feature">
+<h5>球童档案</h5>
+<p>
+一种简单、直观的方式来配置您的站点。这不是脚本，也不难记忆。从手指上滚下来。你会很喜欢的。
+</p>
+</div>
+<div class="feature">
+<h5>静态文件</h5>
+<p>
+默认情况下，Caddy 将在当前工作目录中提供静态文件。它非常简单，而且运行速度很快。
+</p>
+</div>
+<div class="feature">
+<h5>动态网站</h5>
+<p>
+Caddy 还可以通过模板、代理、FastCGI 和插件的使用来为动态站点提供服务。
+</p>
+</div>
+<div class="feature">
+<h5>命令行界面</h5>
+<p>
+使用其简单的跨平台命令行界面自定义 Caddy 的运行方式；特别适用于快速、一次性的服务器实例。
+</p>
+</div>
+<div class="feature">
+<h5>插件</h5>
+<p>
+Caddy 可以通过插件进行扩展。所有应用程序、Caddyfile 指令、HTTP 处理程序和其他功能都是插件！它们易于编写和直接编译。
+</p>
+</div>
+<div class="feature">
+<h5>多核</h5>
+<p>
+当情况变得艰难时，Caddy 会使用更多 CPU。 Go 的调度器理解 Go 代码，goroutines 比系统线程更轻量级。所以是的，它很快。
+</p>
+</div>
+<div class="feature">
+<h5>可嵌入</h5>
+<p>
+编写另一个可以使用强大的 Web 服务器或反向代理的程序或 Web 服务？ Caddy 可以像 Go 程序中的库一样使用。
+</p>
+</div>
+<div class="feature">
+<h5>Caddyfile 验证</h5>
+<p>
+Caddy 可以解析和验证您的 Caddyfile，而无需实际运行它。
+</p>
+</div>
+<div class="feature">
+<h5>进程日志</h5>
+<p>
+Caddy 可以写入所有重要事件的日志，尤其是错误。记录到文件、stdout/stderr 或本地或远程系统日志！
+</p>
+</div>
+<div class="feature">
+<h5>日志滚动</h5>
+<p>
+当日志文件变大时，Caddy 会自动轮换它们以节省磁盘空间。
+</p>
+</div>
+</div>
+</section>
 
 
 
